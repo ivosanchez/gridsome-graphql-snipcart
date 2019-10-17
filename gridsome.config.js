@@ -8,9 +8,10 @@ module.exports = {
     {
       use: '~/src/sources/products',
       options: {
-        apiKey: process.env.AIRTABLE_KEY,
-        base: process.env.AIRTABLE_BASE,
+        apiKey: process.env.keyEcvIccrrA6W0Ex,
+        base: process.env.app88MlLeYWv0M6r4,
       },
     },
   ],
 };
+
