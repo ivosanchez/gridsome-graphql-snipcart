@@ -3,11 +3,11 @@
       <section class="main">
         <aside>
             <figure>
-                <img :src="$page.product.picture[selected].thumbnails.large.url.src"
+                <img :src="$page.product.Images[selected].thumbnails.large.url.src"
                     alt="Product Image" class="img-main" />
             </figure>
             <p>
-                <img v-for="(img, index) in $page.product.picture"
+                <img v-for="(img, index) in $page.product.Images"
                     :key="img.thumbnails.large.url.src"
                     @click="select(index)"
                     :src="img.thumbnails.large.url.src"
@@ -15,7 +15,7 @@
                     :class="{active: index == selected}" />
             </p>
         </aside>
-        <h1>{{$page.product.title}}</h1>
+        <!-- <h1>{{$page.product.title}}</h1> -->
         <buy-button :product="$page.product" />
         <p>{{$page.product.content}}</p>
       </section>
