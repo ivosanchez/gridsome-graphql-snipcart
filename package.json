@@ -7,8 +7,8 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "airtable": "^0.5.8",
+    "airtable": "^0.7.1",
     "dotenv": "^6.2.0",
-    "gridsome": "^0.4.0"
+    "gridsome": "^0.7.8"
   }
 }
