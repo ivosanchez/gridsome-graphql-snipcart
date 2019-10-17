@@ -89,9 +89,9 @@ query Products($page: Int) {
         path,
         price,
         content,
-        picture {
-          thumbnails {
-             large{
+          Images {
+            thumbnails {
+              large{
               url
             }
           }

@@ -8,9 +8,22 @@ module.exports = {
     {
       use: '~/src/sources/products',
       options: {
-        apiKey: process.env.'keyEcvIccrrA6W0Ex',
-        base: process.env.'app88MlLeYWv0M6r4',
+        apiKey: 'keyEcvIccrrA6W0Ex',
+        base: 'app88MlLeYWv0M6r4',
       },
     },
   ],
 };
+
+
+// module.exports = {
+//   plugins: [
+//     {
+//       use: '~/src/sources/products',
+//       options: {
+//         apiKey: '<your API Key here>',
+//         base: '<your base' ID here>',
+//       },
+//     },
+//   ],
+// };
