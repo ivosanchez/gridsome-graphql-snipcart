@@ -8,10 +8,9 @@ module.exports = {
     {
       use: '~/src/sources/products',
       options: {
-        apiKey: process.env.keyEcvIccrrA6W0Ex,
-        base: process.env.app88MlLeYWv0M6r4,
+        apiKey: process.env.'keyEcvIccrrA6W0Ex',
+        base: process.env.'app88MlLeYWv0M6r4',
       },
     },
   ],
 };
-

@@ -1,8 +1,12 @@
 const Airtable = require('airtable');
 
 module.exports = function (api, opts) {
-    const base = new Airtable({apiKey: opts.apiKey}).base(opts.base);
-    api.loadSource(async store => {
+     const base = new Airtable({apiKey: opts.apiKey}).base(opts.base);
+     api.loadSource(async store => {
+
+    // app88MlLeYWv0M6r4
+    // keyEcvIccrrA6W0Ex
+     
         const contentType = store.addContentType({
             typeName: 'Product',
             route: '/products/:slug',
